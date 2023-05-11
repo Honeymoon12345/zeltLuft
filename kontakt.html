@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="CSS/kontakt.css">
+    <!-- Schrift -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/7c1106c071.js"></script>
+    <!-- Webseiten Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+    <title>Kontakt</title>
+</head>
+
+<body>
+    <!-- Start Kopf -->
+    <header class="kopfbereich">
+        <div class="container">
+            <nav id="nav-top">
+                <img class="logo" src="img/ZL Logo_Schriftzug.png" alt="Logo">
+                <img class="logo_klein" src="img/ZL Logo_Quadrat.png" alt="Logo">
+
+
+                <input type="checkbox" id="nav-top-trigger" name="nav-top-trigger">
+                <label for="nav-top-trigger" class="nav-top-trigger">
+                    <em></em>
+                </label>
+                <ul class="menuelist">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="produkte.html">unsere Produkte</a></li>
+                    <li><a href="team.html">unser Team</a></li>
+                    <li>Kontakt</li>
+                </ul>
+
+                <div class="clearfix"></div>
+                <div class="heading">
+                    <h1><span>K</span>ontakt</h1>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Ende Kopf -->
+
+    <!-- Start Main -->
+    <main class="hauptbereich">
+        <section class="anmeldeform" id="form">
+            <div class="container">
+                <h2 class="anmeldung_heading">Unser Kontaktformular</h2>
+                <form>
+                    <div class="formular">
+                        <label for="">Deine E-Mail Adresse*</label>
+                        <input class="standardform" type="text" placeholder="max.mustermann@mailbox.com" required>
+                        <label>Vorname*</label>
+                        <input class="standardform" type="text" placeholder="Vorname" required>
+                        <label>Nachname*</label>
+                        <input class="standardform" type="text" placeholder="Nachname" required>
+                        <label for="">Wähle eine Terminart*</label>
+                        <select class="standardform">
+                            <option value="beratung">Beratungstermin</option>
+                            <option value="erstgespräch">Erstgespräch</option>
+                            <option value="newsletter">Newsletter</option>
+                        </select>
+                    </div>
+
+                    <label>Nachricht</label>
+                    <textarea class="standardform textarea" cols="30" rows="20"
+                        placeholder="Wenn Sie noch Fragen haben..."></textarea>
+                    <input type="checkbox" class="datenschutzcheck">
+                    <label class="checkbeschriftung">
+                        * Hiermit bestätige ich, dass die oben angegebenen Daten gemäß Datenschutzrichtlinie
+                        für die Abwicklung der Anfrage und für die Kontaktaufnahme zu deren Beantwortung
+                        gespeichert und verarbeitet werden. <br> Diese Einwilligung kann jederzeit wiederrufen werden.
+                    </label>
+                    <p class="checkbeschriftung2">* Felder müssen ausgefüllt werden!</p>
+                    <div class="btn">
+                        <input class="btn_senden" type="submit" value="Senden">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="kontakt_methoden">
+            <ul class="list_items">
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-solid fa-square-phone"></i>
+                    </span>
+                    0316-12 45 33
+                </li>
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    hallo@zeltLuft.at
+                </li>
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </span>
+                    @zeltLuft
+                </li>
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </span>
+                    facebook.com/zeltLuft
+                </li>
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                    Kernstockgasse 22
+                </li>
+                <li>
+                    <span class="kontakt_icon">
+                        <i class="fa-solid fa-city"></i>
+                    </span>
+                    8020 Graz
+                </li>
+            </ul>
+            <map name="google-karte" class="karte">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.486256055926!2d15.425905776715572!3d47.069927324882784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e357702b82543%3A0x3d6e4ef85878ee70!2sKernstockgasse%2022%2C%208020%20Graz!5e0!3m2!1sde!2sat!4v1682319233923!5m2!1sde!2sat"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </map>
+        </div>
+    </main>
+    <!-- Ende Main -->
+
+    <!-- Start Fuß -->
+    <footer class="footer">
+        <div class="container">
+            <span class="logo_unten">
+                <a href="#">&copy; | zeltLuft |</a>
+                <a href="#">Impressum |</a>
+                <a href="#">Datenschutz</a>
+            </span>
+
+            <div class="row_unten">
+                <div class="symbol_unten"><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="symbol_unten"><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="symbol_unten"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Ende Fuß -->
+</body>
+
+</html>
